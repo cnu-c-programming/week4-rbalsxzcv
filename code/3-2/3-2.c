@@ -16,7 +16,7 @@ int main(){
 
     printf("%x\n", x);
     swap_endian(&x);
-    printf("%x\n",x);
+    printf("%x",x);
 
     return 0;
 }
